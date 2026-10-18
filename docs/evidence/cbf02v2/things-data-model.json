@@ -1,0 +1,167 @@
+{
+    "modelId":  "000004x1di",
+    "services":  [
+                     {
+                         "actions":  [
+
+                                     ],
+                         "code":  "",
+                         "description":  "",
+                         "events":  [
+
+                                    ],
+                         "name":  "默认服务",
+                         "properties":  [
+                                            {
+                                                "abilityId":  1,
+                                                "accessMode":  "rw",
+                                                "code":  "switch",
+                                                "description":  "",
+                                                "extensions":  {
+                                                                   "iconName":  "icon-dp_power2",
+                                                                   "attribute":  "1153"
+                                                               },
+                                                "name":  "开关",
+                                                "typeSpec":  {
+                                                                 "type":  "bool"
+                                                             }
+                                            },
+                                            {
+                                                "abilityId":  2,
+                                                "accessMode":  "rw",
+                                                "code":  "mode",
+                                                "description":  "",
+                                                "extensions":  {
+                                                                   "iconName":  "icon-dp_mode",
+                                                                   "attribute":  "1152"
+                                                               },
+                                                "name":  "模式",
+                                                "typeSpec":  {
+                                                                 "type":  "enum",
+                                                                 "range":  [
+                                                                               "click",
+                                                                               "long_press"
+                                                                           ]
+                                                             }
+                                            },
+                                            {
+                                                "abilityId":  3,
+                                                "accessMode":  "rw",
+                                                "code":  "click_sustain_time",
+                                                "description":  "",
+                                                "extensions":  {
+                                                                   "iconName":  "icon-dp_time3",
+                                                                   "attribute":  "1152"
+                                                               },
+                                                "name":  "下降保持时间",
+                                                "typeSpec":  {
+                                                                 "type":  "value",
+                                                                 "max":  100,
+                                                                 "min":  3,
+                                                                 "scale":  1,
+                                                                 "step":  1,
+                                                                 "unit":  "0.1s"
+                                                             }
+                                            },
+                                            {
+                                                "abilityId":  4,
+                                                "accessMode":  "rw",
+                                                "code":  "arm_up_percent",
+                                                "description":  "",
+                                                "extensions":  {
+                                                                   "iconName":  "icon-dp_updown",
+                                                                   "attribute":  "1152"
+                                                               },
+                                                "name":  "上升位置",
+                                                "typeSpec":  {
+                                                                 "type":  "value",
+                                                                 "max":  30,
+                                                                 "min":  0,
+                                                                 "scale":  0,
+                                                                 "step":  1,
+                                                                 "unit":  ""
+                                                             }
+                                            },
+                                            {
+                                                "abilityId":  5,
+                                                "accessMode":  "rw",
+                                                "code":  "arm_down_percent",
+                                                "description":  "",
+                                                "extensions":  {
+                                                                   "iconName":  "icon-dp_updown",
+                                                                   "attribute":  "1152"
+                                                               },
+                                                "name":  "下降位置",
+                                                "typeSpec":  {
+                                                                 "type":  "value",
+                                                                 "max":  30,
+                                                                 "min":  0,
+                                                                 "scale":  0,
+                                                                 "step":  1,
+                                                                 "unit":  ""
+                                                             }
+                                            },
+                                            {
+                                                "abilityId":  7,
+                                                "accessMode":  "ro",
+                                                "code":  "charge_status",
+                                                "description":  "",
+                                                "extensions":  {
+                                                                   "iconName":  "icon-zhuangtai"
+                                                               },
+                                                "name":  "充电状态",
+                                                "typeSpec":  {
+                                                                 "type":  "enum",
+                                                                 "range":  [
+                                                                               "none",
+                                                                               "charging",
+                                                                               "charge_done"
+                                                                           ]
+                                                             }
+                                            },
+                                            {
+                                                "abilityId":  8,
+                                                "accessMode":  "ro",
+                                                "code":  "battery_percentage",
+                                                "description":  "",
+                                                "extensions":  {
+                                                                   "iconName":  "icon-dp_battery"
+                                                               },
+                                                "name":  "电池电量",
+                                                "typeSpec":  {
+                                                                 "type":  "value",
+                                                                 "max":  100,
+                                                                 "min":  0,
+                                                                 "scale":  0,
+                                                                 "step":  1,
+                                                                 "unit":  "%"
+                                                             }
+                                            },
+                                            {
+                                                "abilityId":  101,
+                                                "accessMode":  "wr",
+                                                "code":  "start",
+                                                "description":  "",
+                                                "extensions":  {
+                                                                   "iconName":  "icon-dp_play",
+                                                                   "attribute":  "4096"
+                                                               },
+                                                "name":  "自动调整",
+                                                "typeSpec":  {
+                                                                 "type":  "bool"
+                                                             }
+                                            },
+                                            {
+                                                "abilityId":  102,
+                                                "accessMode":  "wr",
+                                                "code":  "set_switch_state",
+                                                "description":  "",
+                                                "name":  "切换显示状态",
+                                                "typeSpec":  {
+                                                                 "type":  "bool"
+                                                             }
+                                            }
+                                        ]
+                     }
+                 ]
+}

@@ -1,0 +1,58 @@
+{
+    "properties":  [
+                       {
+                           "dp_id":  1,
+                           "code":  "switch",
+                           "type":  "bool",
+                           "value":  true
+                       },
+                       {
+                           "dp_id":  2,
+                           "code":  "mode",
+                           "type":  "enum",
+                           "value":  "click"
+                       },
+                       {
+                           "dp_id":  3,
+                           "code":  "click_sustain_time",
+                           "type":  "value",
+                           "value":  5
+                       },
+                       {
+                           "dp_id":  4,
+                           "code":  "arm_up_percent",
+                           "type":  "value",
+                           "value":  0
+                       },
+                       {
+                           "dp_id":  5,
+                           "code":  "arm_down_percent",
+                           "type":  "value",
+                           "value":  23
+                       },
+                       {
+                           "dp_id":  7,
+                           "code":  "charge_status",
+                           "type":  "enum",
+                           "value":  "none"
+                       },
+                       {
+                           "dp_id":  8,
+                           "code":  "battery_percentage",
+                           "type":  "value",
+                           "value":  98
+                       },
+                       {
+                           "dp_id":  101,
+                           "code":  "start",
+                           "type":  "bool",
+                           "value":  false
+                       },
+                       {
+                           "dp_id":  102,
+                           "code":  "set_switch_state",
+                           "type":  "bool",
+                           "value":  false
+                       }
+                   ]
+}

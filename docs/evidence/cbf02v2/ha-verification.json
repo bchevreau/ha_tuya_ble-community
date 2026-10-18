@@ -1,0 +1,57 @@
+{
+    "integration_commit":  "3453ecddd44b462e124c986da43001a06710b00a",
+    "home_assistant_core":  "2026.10.1",
+    "product_id":  "bo25vaxy",
+    "category":  "szjqr",
+    "model":  "CBF02V2",
+    "device_version":  "9.5",
+    "hardware_version":  "0.0",
+    "protocol_version":  "3.1",
+    "connected":  true,
+    "coordinator_connected":  true,
+    "last_connect_error":  null,
+    "config_check":  {
+                         "result":  "valid",
+                         "is_valid":  true,
+                         "errors":  [
+
+                                    ]
+                     },
+    "datapoints":  [
+                       {
+                           "id":  1,
+                           "type":  "DT_BOOL",
+                           "value":  true
+                       },
+                       {
+                           "id":  2,
+                           "type":  "DT_ENUM",
+                           "value":  0
+                       },
+                       {
+                           "id":  3,
+                           "type":  "DT_VALUE",
+                           "value":  5
+                       },
+                       {
+                           "id":  4,
+                           "type":  "DT_VALUE",
+                           "value":  0
+                       },
+                       {
+                           "id":  5,
+                           "type":  "DT_VALUE",
+                           "value":  23
+                       },
+                       {
+                           "id":  8,
+                           "type":  "DT_VALUE",
+                           "value":  98
+                       }
+                   ],
+    "main_entity_identities_preserved":  8,
+    "new_button":  "Invert switch status",
+    "new_button_enabled":  true,
+    "obsolete_test_entities_remaining":  0,
+    "physical_observations_source":  "Device owner; not inferred from this readback"
+}

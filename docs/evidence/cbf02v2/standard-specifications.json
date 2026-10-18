@@ -1,0 +1,84 @@
+{
+    "category":  "szjqr",
+    "functions":  [
+                      {
+                          "code":  "switch",
+                          "desc":  "{}",
+                          "name":  "开关",
+                          "type":  "Boolean",
+                          "values":  "{}"
+                      },
+                      {
+                          "code":  "mode",
+                          "desc":  "{\"range\":[\"click\"]}",
+                          "name":  "模式",
+                          "type":  "Enum",
+                          "values":  "{\"range\":[\"click\"]}"
+                      },
+                      {
+                          "code":  "click_sustain_time",
+                          "desc":  "{\"unit\":\"0.1s\",\"min\":3,\"max\":100,\"scale\":1,\"step\":1}",
+                          "name":  "可回弹时间设置",
+                          "type":  "Integer",
+                          "values":  "{\"unit\":\"0.1s\",\"min\":3,\"max\":100,\"scale\":1,\"step\":1}"
+                      },
+                      {
+                          "code":  "arm_up_percent",
+                          "desc":  "{\"unit\":\"\",\"min\":0,\"max\":30,\"scale\":0,\"step\":1}",
+                          "name":  "上升幅度",
+                          "type":  "Integer",
+                          "values":  "{\"unit\":\"\",\"min\":0,\"max\":30,\"scale\":0,\"step\":1}"
+                      },
+                      {
+                          "code":  "arm_down_percent",
+                          "desc":  "{\"unit\":\"\",\"min\":0,\"max\":30,\"scale\":0,\"step\":1}",
+                          "name":  "下降幅度",
+                          "type":  "Integer",
+                          "values":  "{\"unit\":\"\",\"min\":0,\"max\":30,\"scale\":0,\"step\":1}"
+                      }
+                  ],
+    "status":  [
+                   {
+                       "code":  "switch",
+                       "name":  "开关",
+                       "type":  "Boolean",
+                       "values":  "{}"
+                   },
+                   {
+                       "code":  "mode",
+                       "name":  "模式",
+                       "type":  "Enum",
+                       "values":  "{\"range\":[\"click\"]}"
+                   },
+                   {
+                       "code":  "click_sustain_time",
+                       "name":  "可回弹时间设置",
+                       "type":  "Integer",
+                       "values":  "{\"unit\":\"0.1s\",\"min\":3,\"max\":100,\"scale\":1,\"step\":1}"
+                   },
+                   {
+                       "code":  "arm_up_percent",
+                       "name":  "上升幅度",
+                       "type":  "Integer",
+                       "values":  "{\"unit\":\"\",\"min\":0,\"max\":30,\"scale\":0,\"step\":1}"
+                   },
+                   {
+                       "code":  "arm_down_percent",
+                       "name":  "下降幅度",
+                       "type":  "Integer",
+                       "values":  "{\"unit\":\"\",\"min\":0,\"max\":30,\"scale\":0,\"step\":1}"
+                   },
+                   {
+                       "code":  "charge_status",
+                       "name":  "充电状态",
+                       "type":  "Enum",
+                       "values":  "{\"range\":[\"none\",\"charging\",\"charge_done\"]}"
+                   },
+                   {
+                       "code":  "battery_percentage",
+                       "name":  "电池电量",
+                       "type":  "Integer",
+                       "values":  "{\"unit\":\"%\",\"min\":0,\"max\":100,\"scale\":0,\"step\":1}"
+                   }
+               ]
+}
